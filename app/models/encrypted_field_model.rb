@@ -1,0 +1,2 @@
+class EncryptedFieldModel < ApplicationRecord
+end

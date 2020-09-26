@@ -1,0 +1,2 @@
+class MultiKeyModel < ApplicationRecord
+end
