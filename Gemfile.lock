@@ -72,6 +72,8 @@ GEM
       regexp_parser (~> 1.5)
       xpath (~> 3.2)
     childprocess (3.0.0)
+    composite_primary_keys (12.0.2)
+      activerecord (~> 6.0.0)
     concurrent-ruby (1.1.7)
     crass (1.0.6)
     erubi (1.9.0)
@@ -85,6 +87,7 @@ GEM
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    lockbox (0.4.8)
     loofah (2.7.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -201,8 +204,10 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
+  composite_primary_keys (>= 12.0.0, < 13.0)
   jbuilder (~> 2.7)
   listen (~> 3.2)
+  lockbox
   puma (~> 4.1)
   rails (~> 6.0.3)
   sass-rails (>= 6)
