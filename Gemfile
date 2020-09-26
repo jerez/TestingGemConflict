@@ -56,3 +56,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # these are the conflicting gems
 gem 'composite_primary_keys', '>= 12.0.0', '< 13.0'
 gem 'lockbox'
+
+# dotenv 
+gem 'dotenv-rails', groups: [:development, :test]
