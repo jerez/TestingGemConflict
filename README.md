@@ -2,6 +2,6 @@
 
 To reproduce:
 
-rails c
-EncryptedFieldModel.create(field: 'test')
+* rails c
+* EncryptedFieldModel.create(field: 'test')
 
